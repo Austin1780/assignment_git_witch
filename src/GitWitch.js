@@ -14,10 +14,6 @@ class GitWitch {
         })
         .catch(err => reject(err));
     });
-    // let output = this.formatter.format(response);
-    // return new Promise((resolve, reject) => {
-    // if(err) reject(err);
-    // resolve(output);
   }
 }
 
